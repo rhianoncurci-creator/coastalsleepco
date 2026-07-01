@@ -901,7 +901,7 @@ footer{
 </footer>
 
 <script>
-function chooseInPerson(btn){var c=document.getElementById('inPersonCheck');var on=!(c&&c.checked);if(c){c.checked=on;}if(btn){btn.textContent=on?'In-person added ✓':'Add an in-person catch-up';}if(on){var f=document.getElementById('contactForm');if(f){f.scrollIntoView({behavior:'smooth',block:'center'});}}}
+function chooseInPerson(btn){var c=document.getElementById('inPersonCheck');if(c){c.checked=true;}if(btn){btn.textContent='In-person added ✓';}var target=document.getElementById('contactForm');if(target){target.scrollIntoView({behavior:'smooth',block:'start'});}}
 // ── Tab system ──
 function showTab(name) {
   // Hide all panes
