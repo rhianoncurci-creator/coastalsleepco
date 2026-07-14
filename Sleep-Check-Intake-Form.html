@@ -57,7 +57,21 @@ body{font-family:'Lato',sans-serif;background:#F7F2EC;color:#5C4733;min-height:1
         <div class="field"><label>Your full name <span style="color:#B8963E">*</span></label><input type="text" name="parent_name" placeholder="First and last name" required></div>
         <div class="field"><label>Email address <span style="color:#B8963E">*</span></label><input type="email" name="email" placeholder="your@email.com" required></div>
       </div>
-      <div class="field"><label>Phone number <span style="color:#B8963E">*</span></label><input type="text" name="phone" placeholder="04XX XXX XXX" required></div>
+      <div class="field-row">
+        <div class="field"><label>Phone number <span style="color:#B8963E">*</span></label><input type="text" name="phone" placeholder="04XX XXX XXX" required></div>
+        <div class="field"><label>Suburb &amp; state <span style="color:#B8963E">*</span></label><input type="text" name="suburb_state" placeholder="e.g. Wollongong, NSW" required></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Preferred days to reach you</label><input type="text" name="preferred_days" placeholder="e.g. Tuesday or Wednesday, any day but Friday"></div>
+        <div class="field"><label>Preferred time</label>
+          <select name="preferred_call_time">
+            <option value="">Please select...</option>
+            <option>Morning (9am to 12pm)</option>
+            <option>Midday (12pm to 2pm)</option>
+            <option>Afternoon (2pm to 5pm)</option>
+            </select>
+        </div>
+      </div>
     </div>
 
     <div class="section">
