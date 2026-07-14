@@ -97,6 +97,11 @@ body{font-family:'Lato',sans-serif;background:#F7F2EC;color:#5C4733;min-height:1
     <div class="section">
       <div class="section-title">Current Sleep Situation</div>
       <div class="field">
+        <label>What does a typical day currently look like? <span style="color:#B8963E">*</span></label>
+        <textarea name="current_routine" placeholder="e.g. Wakes 6:30am, nap 9:30-10:30am, nap 1-2:30pm, dinner 5:30pm, bath 6:30pm, bed 7pm, wakes twice overnight for a feed..." required></textarea>
+        <div class="field-hint">Include wake time, naps, feeds and bedtime with approximate times, this gives me the full picture to work from.</div>
+      </div>
+      <div class="field">
         <label>Where does your child sleep? <span style="color:#B8963E">*</span></label>
         <select name="sleep_location" required>
           <option value="">Please select...</option>
@@ -115,7 +120,7 @@ body{font-family:'Lato',sans-serif;background:#F7F2EC;color:#5C4733;min-height:1
       <div class="field">
         <label>What is your specific sleep concern? <span style="color:#B8963E">*</span></label>
         <textarea name="main_concern" placeholder="Tell me the one thing you most need help with..." required></textarea>
-        <div class="field-hint">The Sleep Check focuses on one specific concern — please describe it in as much detail as you can.</div>
+        <div class="field-hint">The Sleep Check focuses on one specific concern, please describe it in as much detail as you can.</div>
       </div>
     </div>
 
